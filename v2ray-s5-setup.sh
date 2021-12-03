@@ -16,7 +16,6 @@ y
 admin
 www.cvc.cx
 
-" | v2ray
+" | v2ray && v2ray url
 
-v2ray url
 # clear && sudo echo 1 | v2ray socks && v2ray url
