@@ -10,6 +10,7 @@ _green() { echo -e ${green}$*${none}; }
 _yellow() { echo -e ${yellow}$*${none}; }
 _magenta() { echo -e ${magenta}$*${none}; }
 _cyan() { echo -e ${cyan}$*${none}; }
+
 echo "1
 3
 443
