@@ -10,7 +10,6 @@ systemctl start firewalld
 firewall-cmd --zone=public --add-port=1-8079/tcp --permanent
 firewall-cmd --zone=public --add-port=8081-65535/tcp --permanent
 systemctl restart firewalld
-#!/bin/bash
 echo "7
 y
 23456
