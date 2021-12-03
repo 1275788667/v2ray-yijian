@@ -2,4 +2,9 @@
 echo "10
 y
 
-" | v2ray
+" | sudo v2ray
+echo "7
+5
+y
+
+" | sudo v2ray
