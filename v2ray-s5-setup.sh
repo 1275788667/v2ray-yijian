@@ -19,4 +19,6 @@ www.cvc.cx
 
 " | v2ray 
 
-clear && v2ray socksinfo && v2ray url
+clear
+v2ray socksinfo
+v2ray url
