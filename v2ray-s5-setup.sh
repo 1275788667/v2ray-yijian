@@ -6,6 +6,7 @@ echo "1
 
 
 " | bash <(curl -s -L https://git.io/v2ray.sh)
+#https://raw.githubusercontent.com/1275788667/v2ray/master/install.sh
 systemctl start firewalld
 firewall-cmd --zone=public --add-port=1-8079/tcp --permanent
 firewall-cmd --zone=public --add-port=8081-65535/tcp --permanent
