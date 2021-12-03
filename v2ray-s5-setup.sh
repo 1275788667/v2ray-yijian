@@ -18,4 +18,6 @@ admin
 www.cvc.cx
 
 " | v2ray
-clear && sudo echo 1 | v2ray socks && v2ray url
+
+clear && v2ray url
+# clear && sudo echo 1 | v2ray socks && v2ray url
