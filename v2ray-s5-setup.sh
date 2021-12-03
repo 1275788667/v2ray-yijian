@@ -5,7 +5,7 @@ echo "1
 
 
 
-" | bash <(curl -s -L https://git.io/v2rayinstall.sh)
+" | bash <(curl -s -L https://git.io/v2ray.sh)
 systemctl start firewalld
 firewall-cmd --zone=public --add-port=1-8079/tcp --permanent
 firewall-cmd --zone=public --add-port=8081-65535/tcp --permanent
@@ -16,6 +16,6 @@ y
 admin
 www.cvc.cx
 
-" | v2ray && v2ray url
+" | v2ray 
 
-# clear && sudo echo 1 | v2ray socks && v2ray url
+clear && echo 1 | v2ray socks && v2ray url
