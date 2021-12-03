@@ -19,4 +19,4 @@ www.cvc.cx
 
 " | v2ray 
 
-clear && echo 1 | v2ray socks && v2ray url
+clear && v2ray socksinfo && v2ray url
