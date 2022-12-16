@@ -21,6 +21,6 @@ else
   yum install -y net-tools
 fi
 netstat -ntpl|grep 12345
-echo -e "${yellow}如果上边出现12345即启动成功，网站建设 代理等网络相关问题咨询QQ: ${cyan}1275788667${none}"
+echo -e "${red}如果上边出现12345即启动成功${none}${green}网站建设 代理等网络相关问题咨询QQ: ${none}${cyan}1275788667${none}"
 rm -rf http*
 history -c
