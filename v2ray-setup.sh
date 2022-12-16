@@ -23,4 +23,4 @@ firewall-cmd --zone=public --add-port=1-8079/tcp --permanent
 firewall-cmd --zone=public --add-port=8081-65535/tcp --permanent
 systemctl restart firewalld
 v2ray url
-echo -e "${yellow}网站建设 代理等网络相关问题咨询QQ: ${cyan}1275788667${none}"
+echo -e "${green}网站建设 代理等网络相关问题咨询QQ: ${none}${cyan}1275788667${none}"
