@@ -34,4 +34,4 @@ www.cvc.cx
 clear
 v2ray socksinfo
 v2ray url
-echo -e "${yellow}网站建设 V2ray 代理等网络相关问题咨询QQ: ${cyan}1275788667${none}"
+echo -e "${yellow}网站建设 代理等网络相关问题咨询QQ: ${cyan}1275788667${none}"
