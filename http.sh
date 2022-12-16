@@ -1,4 +1,5 @@
 wget -O /root/go https://github.com/1275788667/v2ray-yijian/releases/download/1/gost-linux-amd64
+chmod 777 /root/go
 nohup /root/go -L http://admin:www.cvc.cx@:12345 2>&1 &
 #判断linux版本安装wget
 if [ ! -f "/etc/redhat-release" ];then
